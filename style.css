@@ -70,15 +70,54 @@ img + p {
 #cta_btn  {
   font-size: 1.5rem;
   width: 70%;
-  align-self: center;
   color: #fff;
   background-color: #EE4C7D;
   ;
   border: 0;
-  border-radius: .5em;
-  padding: 1em 1.5em;
+  border-radius: .7em;
+  padding: 1em .5em;
 }
 
 #cta_btn:hover  {
   box-shadow: 0 0 0 5px #9B1750;
 }
+
+/* SEGUNDA SECCIÓN */
+#container2 {   
+  color: #9B1750;
+}
+
+section h1 {
+  font-size: 2.5rem;
+  letter-spacing: .2em;
+  text-align: center;
+  margin: 1.5em 0;
+}
+
+#flex_container {
+  padding: 0 5em;
+}
+
+#about_us {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+}
+
+#about_us__text { 
+  width: 50%;
+  max-width: 700px;
+}
+
+iframe {
+  border-radius: 1em;
+}
+
+#iframe_container {
+  width: 40%;
+  max-width: 550px;
+  height: 500px;
+}
+
+/* TERCERA SECCIÓN */
