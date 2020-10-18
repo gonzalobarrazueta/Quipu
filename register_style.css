@@ -170,8 +170,6 @@ select + select {
 
   background: #9B1750;
 
-  color: #FFD9D9;
-
   box-shadow: 2px 4px 4px 0px grey;
 
   font-size: 1rem;
@@ -184,5 +182,11 @@ select + select {
   border-radius: .7em;
 
   align-self: center;
+}
+
+.unirse_btn a {
+
+  text-decoration: none;
+  color: #FFD9D9;
 }
 

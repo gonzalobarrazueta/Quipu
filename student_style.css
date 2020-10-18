@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&displa y=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  
+  box-sizing: border-box;
+
+  font-family: 'Source Sans Pro';
+  font-size: 20px;
+  font-weight: 700;
+}
+
+main  {
+  
+  color: rgb(155,23,80);
+  background: #FFCB46;
+
+  padding-top: 1.5em;
+  height: 100vh;
+}
+
+nav h1 {
+
+  width: 20%;
+
+  color: rgb(155,23,80);
+
+  font-size: 1.5rem;
+
+  padding: .5em 0;
+  margin: 0em auto;
+
+}
+
+
+.navbar {
+  
+  background: linear-gradient(270deg, #E9B7CE 0%, #D3F3F1 98.56%);
+ 
+}
+
+nav h2  {
+  
+  width: 25%;
+
+  margin: 0 auto;
+
+  padding: 1em 1.5em;
+
+  font-size: 1.2em;
+  font-weight: 600;
+
+}
+
+.card {
+
+  background: #FFF;
+  
+  max-width: 350px;
+
+  border-radius: 1em;
+
+  box-shadow: 6px 7px 4px 0px rgb(201,115,137,1);
+
+  margin: 1em 0 0 2em;
+
+}
+
+.card_header  {
+
+  background: linear-gradient(270deg, #E9B7CE 0%, #D3F3F1 98.56%); 
+
+  border-radius: 1em 1em 0 0;
+
+  width: 100%;
+  height: 50px;
+
+  padding: .5em 1.5em;
+  
+}
+
+.card_content {
+
+  padding: 1em 1.5em;
+  
+  display: flex;
+  flex-flow: column nowrap;
+  
+}
+
+.card_btn {
+  
+  background: linear-gradient(270deg, #E9B7CE 0%, #D3F3F1 98.56%); 
+
+  color:  rgb(155,23,80);
+
+  border: 0;
+  border-radius: .7em;
+
+  margin-top: 1em;
+  padding: 1em 1.5em;
+
+  align-self: center;
+}
+
+.grid_container {
+  
+  margin: 0 auto;
+
+  width: 70%;
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#card_header2, #card2_btn {
+
+  background: linear-gradient(270.02deg, #60EFFF 0.01%, #3AF5D0 52.63%, #00FF87 99.98%);
+
+}
+
+#card_header3, #card3_btn {
+
+  background: linear-gradient(92.19deg, #CACCFF 1.7%, #BC58C5 101.49%);
+
+}
+
+#card_header4, #card4_btn {
+
+  background: linear-gradient(270deg, #3496FF 0%, #23EFE2 98.56%);
+
+}
+
+#card_header5, #card5_btn {
+
+  background: linear-gradient(90deg, #FF5858 0%, #FFC8C8 100%);
+
+}
+
+#card_header6, #card6_btn {
+
+  background: linear-gradient(90deg, #FDF537 0%, #5CE650 100%);
+
+}
