@@ -11,7 +11,7 @@
 
 </head>
 
-<body>
+<body> 
   
   <div class="background">
    
@@ -32,17 +32,57 @@
           <p id="register_lbl">Registro</p>
           
           <section class="input_container">
-            
-            <input required class="text_form" type="text" placeholder="Nombres">
-      
-            <input required class="text_form" type="text" placeholder="Apellidos">
-      
-            <input required class="text_form" type="text" placeholder="Email">
-            
-            <input required class="text_form" type="text" placeholder="Contraseña">
-            
-            <input required class="text_form" type="text" placeholder="Número de celular">
-      
+           
+            <section class="input_container_col">
+              
+              <input required class="text_form" type="text" placeholder="Nombres">
+        
+              <input required class="text_form" type="text" placeholder="Apellidos">
+        
+              <input required class="text_form" type="text" placeholder="Email">
+              
+              <input required class="text_form" type="text" placeholder="Contraseña">
+              
+              <input required class="text_form" type="text" placeholder="Confirmar contraseña">
+        
+            </section>
+  
+            <section class="input_container_col input_container2">
+              
+              <select name="Departamento" id="">
+                <option value="0" class="value">Departamento</option>
+                <option value="1" class="value">Ancash</option>
+                <option value="2" class="value">Loreto</option>
+                <option value="3" class="value">Moquegua</option>
+                <option value="4" class="value">Huánuco</option>
+                <option value="5" class="value">Lima</option>
+                <option value="6" class="value">Ica</option>
+              </select>
+
+              <select name="Provincias" id="">
+                <option value="0" class="value">Provincia</option>
+                <option value="1" class="value">Ucayali</option>
+                <option value="2" class="value">Lampa</option>
+                <option value="3" class="value">Barranca</option>
+                <option value="4" class="value">Huaral</option>
+                <option value="5" class="value">Pisco</option>
+                <option value="6" class="value">Lauricocha</option>        
+              </select>
+              
+              <select name="Distrito" id="">
+                <option value="0" class="value">Distrito</option>
+                <option value="1" class="value">San Martín de Porres</option>
+                <option value="2" class="value">Rimac</option>
+                <option value="3" class="value">San Miguel</option>
+                <option value="4" class="value">Jesús María</option>
+                <option value="5" class="value">La Molina</option>
+                <option value="6" class="value">San Isidro</option>        
+              </select>
+                         
+              <input required class="text_form" type="text" placeholder="Número de celular">
+
+            </section>
+
           </section>
     
         </section>
@@ -54,6 +94,7 @@
     </section>
   </div>
 
+  <script src="app.js"></script>
 </body>
 
 </html>
